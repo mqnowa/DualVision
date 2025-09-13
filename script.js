@@ -356,6 +356,7 @@ async function main() {
     slid5.oninput = () => {
         cv5.style.background = `linear-gradient(to right, black ${slid5.value}%, white ${slid5.value}%)`;
     }
+    cv5.style.background = `linear-gradient(to right, black ${slid5.value}%, white ${slid5.value}%)`;
 
     const saveBtn = document.getElementById("saveBtn");
     saveBtn.addEventListener("click", () => {
